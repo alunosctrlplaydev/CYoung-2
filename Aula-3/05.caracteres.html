@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <title>Caracteres Especiais e Entidades HTML</title>
+</head>
+<body>
+  <h1>Caracteres Especiais em HTML</h1>
+  <p><a href="index.html">Voltar para a página principal</a></p>
+
+
+  <p>Alguns caracteres têm funções especiais em HTML e para exibí-los, usamos entidades:</p>
+  
+  <table border="1" cellpadding="5">
+    <tr>
+        <th>Caractere</th>
+        <th>Entidade HTML</th>
+        <th>Exemplo</th>
+    </tr>
+    <tr>
+        <td>&lt;</td>
+        <td>&amp;lt;</td>
+        <td>&lt;h1&gt;Título&lt;/h1&gt;</td>
+    </tr>
+    <tr>
+        <td>&gt;</td>
+        <td>&amp;gt;</td>
+        <td>&lt;div&gt;Conteúdo&lt;/div&gt;</td>
+    </tr>
+    <tr>
+        <td>&amp;</td>
+        <td>&amp;amp;</td>
+        <td>Tom &amp; Jerry</td>
+    </tr>
+    <tr>
+        <td>"</td><td>&amp;quot;</td><td>Título &quot;Importante&quot;</td>
+    </tr>
+    <tr>
+        <td>'</td>
+        <td>&amp;apos;</td>
+        <td>Exemplo com &apos;aspas&apos;</td>
+    </tr>
+  </table>
+
+  <p>Para garantir o suporte a acentuação e caracteres especiais da língua portuguesa, sempre inclua no <code>&lt;head&gt;</code> da página:</p>
+  <pre>&lt;meta charset="utf-8" /&gt;</pre>
+
+</body>
+</html>

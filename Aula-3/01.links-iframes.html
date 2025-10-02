@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <title>Links e Navegação entre Páginas</title>
+</head>
+<body>
+  <h1>Links em HTML</h1>
+  <p><a href="index.html">Voltar para a página principal</a></p>
+  <p>Para criar links, usamos a tag &lt;a&gt; com os atributos:</p>
+
+  <ul>
+    <li>
+      <strong>href</strong> -- endereço (URL) do link
+    </li>
+    <li>
+      <strong>target</strong> -- onde abrir o link (_blank = nova janela, _self = mesma janela)
+    </li>
+  </ul>
+
+  <h2>Exemplos de links:</h2>
+  <ul>
+    <li><a href="https://www.google.com" target="_blank">Google (link externo)</a></li>
+    <li><a href="index.html">Outra página local</a></li>
+    <li><a href="imgs/OIP.jpg" download>Download de arquivo</a></li>
+  </ul>
+
+  <hr/>
+  <h1>Janelas dentro da página com &lt;iframe&gt;</h1>
+  <p>Com a tag iframe e o atributo src, você pode inserir páginas dentro de outras.</p>
+
+  <h2>Exemplo local:</h2>
+  <iframe src="index.html" width="400" height="300"></iframe>
+
+  <h2>Exemplo externo (Youtube):</h2>
+  <!--Para incorporar vídeos do Youtube, copie o código disponível no botão "Compartilhar" > "Incorporar" e cole aqui.  -->
+
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/4xurDNycN5A?si=fUfF_PsZ4ZFXitav" 
+  title="YouTube video player" frameborder="0" 
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+  referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  
+</body>
+</html>
